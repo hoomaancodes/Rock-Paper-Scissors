@@ -2,6 +2,9 @@
 
  Rock, Paper, Scissors game! This simple web-based game allows you to play the classic Rock, Paper, Scissors against the computer.
 
+![image](https://github.com/hoomaancodes/Rock-Paper-Scissors/assets/128029773/432f2a93-41c3-4a21-8af8-324ba3f373ad)
+
+
 ## Features
 
 - Play Rock, Paper, Scissors against the computer.
@@ -15,7 +18,7 @@
 - JavaScript
 
 ## Live Preview
-Visit the website : [Rock Paper Scissors]()
+Visit the website : [Rock Paper Scissors](https://rock-paper-scissors-drab-iota.vercel.app/)
 
 ## Usage
 
