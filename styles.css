@@ -1,0 +1,126 @@
+body {
+    font-family: 'Comic Sans MS', cursive; 
+    background-color: #d6fbf4; 
+    color: #1c1d1d; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px; 
+    margin: auto; 
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    color: #3AA6B9;
+    margin-bottom: 80px;
+    font-size: 50px; 
+    text-transform: uppercase; 
+}
+
+h1 span {
+    color: #FF9EAA; 
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.score {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.result {
+    font-size: 28px; 
+    font-weight: bold;
+    color: #1d1d1e; 
+    margin-bottom: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+button.choice {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    width: 150px; 
+    height: 150px; 
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #FF9EAA; 
+    color: #fff; 
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+button.choice:hover {
+    background-color: #3AA6B9; 
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+button.choice:active {
+    transform: scale(0.9); 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}#ffb6c1
+
+.choice.rock {
+    animation: rotate 0.5s ease-in-out; 
+}
+
+@keyframes rotate {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25%, 75% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+
+.choice.paper {
+    animation: float 0.5s ease-in-out; 
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.choice.scissors {
+    animation: rotate 0.5s ease-in-out; 
+}
+
+@keyframes rotate {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25%, 75% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+}
